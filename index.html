@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Challenge-Custom Form Elements</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form novalidate class="form">
+      <header>
+        <h1>UI Challenge-Custom Form Elements</h1>
+      </header>
+      <p class="note">NOTE: DO NOT attempt directly style radio buttons,checkboxes, or the custom select box-you'll need to use the provided spritesheet and series of custom JS ,methods to complete this challenge ... don't worry if it's not perfect-styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
+        <label  class="labels">text input</label>
+        <input placeholder="placeholder text" type="text">
+        <label  class="labels" >text input w/ validation error</label>
+        <input  type="text" placeholder="placeholder text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="please enter valid username" >
+        <!--Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters -->
+        <label  class="labels">checkbox</label>
+        <div class ="checkbox1"></div>
+        <div class ="checkbox2"></div>
+        <label  class="labels" >radio</label>
+          <div class ="radio1"></div>
+          <div class ="radio2"></div>
+        <label  class="labels" >buttons</label>
+        <div class ="button1">
+          <p class ="submit">submit</p>
+        </div>
+        <div class ="button2">
+          <p class ="submit">submit</p>
+        </div>
+        <!--<input  class="checkbox" id="checkbox1" type="checkbox">
+        <input  class="checkbox"  id="checkbox1" type="checkbox">
+        <label  class="labels" >radio</label>
+        <input class="radio" id="radio1" type="radio">
+        <input  class="radio" id="radio2" type="radio">
+        <label  class="labels" >buttons</label>
+        <input class="submits"id="submit1" type="submit">
+        <input class="submits"id="submit2" type="submit">-->
+    </form>
+
+
+  </body>
+</html>
