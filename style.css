@@ -1,0 +1,104 @@
+body{
+  width:100%;
+  margin: 5%
+
+}
+h1{
+  display: block;
+  text-align: center;
+}
+.labels{
+  display: block;
+  padding: 2%;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+input{
+border-style: solid;
+border-color: grey;
+color: grey;
+width:85%;
+padding: 3%;
+margin-bottom: 4%;
+}
+.note{
+width:90%;
+}
+/*input[type="checkbox"]:not(:checked) + label {
+  background-color: red;
+}
+*/
+/*input-pri:checked + label {
+  background-color: green;
+}*/
+
+/*
+
+.radio{
+  display:inline;
+  width:500px;
+  width:500px;
+  background-position: 0px 0px ;
+  background-image: url('pic.png');
+}
+*/
+
+.checkbox1, .checkbox2, .radio1, .radio2{
+  display: inline-block;
+  background-image: url("pic.png");
+  background-repeat: no-repeat;
+  background-size: 800% 380%;
+}
+
+
+.checkbox1{
+    width: 50px;
+    height: 50px;
+    background-position: -40px -70px;
+    margin-left: 2%;
+}
+
+.checkbox2{
+    width: 50px;
+    height: 50px;
+    background-position: -102px -70px;
+    margin-left: 2%;
+}
+
+
+.radio1{
+    width: 50px;
+    height: 50px;
+    background-position: -160px -70px;
+    margin-left: 2%;
+}
+
+.radio2{
+    width: 50px;
+    height: 50px;
+    background-position: -220px -70px;
+    margin-left: 2%;
+}
+.button1{
+  width:35%;
+  background-color:#c3c3c3;
+  color:black;
+  font-weight: bold;
+  border-style: none;
+  display: inline-block;
+  margin-left: 2%;
+}
+.button2{
+    border-style: solid;
+    width:35%;
+    background-color: #4e4848;
+    color:white;
+    font-weight:bold;
+    display: inline-block;
+    border-style: none;
+    margin-left: 4%;
+
+}
+.submit{
+  text-align: center;
+}
