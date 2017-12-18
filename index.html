@@ -13,12 +13,12 @@
       </header>
       <p class="note">NOTE: DO NOT attempt directly style radio buttons,checkboxes, or the custom select box-you'll need to use the provided spritesheet and series of custom JS ,methods to complete this challenge ... don't worry if it's not perfect-styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
         <label  class="labels">text input</label>
-        <input placeholder="placeholder text" type="text">
+        <input id="first" placeholder="placeholder text" type="text">
         <label  class="labels" >text input w/ validation error</label>
-        <input  type="text" placeholder="placeholder text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="please enter valid username" >
-        <!--Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters -->
+        <input  id="validate" type="text" placeholder="placeholder text" pattern= "[a-z]{4}" tittle="please enter valid username" required>
+        <p id="message">Please enter 4 characters.<p>
         <label  class="labels">checkbox</label>
-        <div class ="checkbox1"></div>
+        <div id="div1" class ="checkbox1"></div>
         <div class ="checkbox2"></div>
         <label  class="labels" >radio</label>
           <div class ="radio1"></div>
@@ -30,16 +30,8 @@
         <div class ="button2">
           <p class ="submit">submit</p>
         </div>
-        <!--<input  class="checkbox" id="checkbox1" type="checkbox">
-        <input  class="checkbox"  id="checkbox1" type="checkbox">
-        <label  class="labels" >radio</label>
-        <input class="radio" id="radio1" type="radio">
-        <input  class="radio" id="radio2" type="radio">
-        <label  class="labels" >buttons</label>
-        <input class="submits"id="submit1" type="submit">
-        <input class="submits"id="submit2" type="submit">-->
     </form>
-
-
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
